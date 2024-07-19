@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+}
+
+ul {
+    position: absolute;
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+li {
+    list-style-type: none;
+    padding: 0% 2%;
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Freeman';
+    font-size: 30px;
+    color: #7d7979;
+    background-color: transparent;
+}
+
+nav ul li a:hover {
+    border-bottom: #eb5e28 solid 3px;
+}
+
+/*section1 */ 
+.section1 {
+    margin-left: 12%;
+    margin-top: -6%;
+}
+.section1 h1 {
+    margin-left: 15%;
+    font-size: 130px;
+    font-family: 'Freeman';
+    color: #eb5e28;
+    border-bottom: solid 1px #7d7979;
+}
+
+.section1 .articles {
+    margin-top: -1%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 img {
+    border-radius: 2%;
+    margin-left: 0.5%;
+    padding: 2px;
+    margin: 0.3%;
+    transition: box-shadow 0.2s ease;
+}
+
+.section1 img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/*section 1 txt */ 
+.section1 .h {
+    position: absolute;
+    font-size: 30px;
+    color: #7d7979;
+    margin-top: -23%;
+    margin-left: 16.5%;
+    border: none;
+}
+.section1 .h2 {
+    position: absolute;
+    font-family: 'Freeman';
+    font-size: 25px;
+    color: #7d7979;
+    margin-top: -20.5%;
+    margin-left: 18%;
+}
+.section1 .xof {
+    position: absolute;
+    font-family: 'Freeman';
+    font-size: 25px;
+    color: #7d7979;
+    margin-top: -18.5%;
+    margin-left: 20%;
+    border: none;
+}
+.section1 .btn {
+    position: absolute;
+    font-family: 'Freeman';
+    font-size: 21px;
+    color: #7d7979;
+    background-color: #F6F6F6;
+    margin-top: -4%;
+    margin-left: 1%;
+    padding: 2px 8px;
+    padding-left: 0px;
+    border: none;
+    border-bottom: 1px solid #eb5e28;
+    cursor: pointer;
+}
+
+.section1 .btn:hover {
+    color: #eb5e28;
+}

@@ -1,51 +1,234 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #F6F6F6;
 }
 
-main {
+ul {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 33%;
+}
+
+li {
+    list-style-type: none;
+    padding: 0% 2%;
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'freeman';
+    font-size: 20px;
+    color: #7d7979;
+    background-color: transparent;
+}
+
+nav ul li a:hover {
+    border-bottom: #eb5e28 solid 3px;
+}
+
+/* section 1 */
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .fond {
+    margin-top: 1%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section1 h1 {
+    position: absolute;
+    z-index: 3;
+    margin-top: -9%;
+    font-size: 150px;
+    font-family: 'freeman';
+    color: #7d7979;
+}
+
+/* section 2 */
+.section2 h1 {
+    margin-left: 15%;
+    font-size: 100px;
+    border-bottom: #eb5e28 solid 1px;
+    letter-spacing: 3px;
+    font-family: 'freeman';
+    color: #7d7979;
+}
+
+.section2 .articles {
+    margin-top: -1%;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-#img {
-    max-width: 100%;
-    text-align: center;
+.section2 a {
+    border-radius: 2%;
+    margin-left: 0.5%;
+    padding: 2px;
+    margin: 0.3%;
+    transition: box-shadow 0.2s ease;
 }
 
-.fond {
-    max-width: 100%;
-    height: auto;
+.section2 a:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-#Txt1 {
+.section2 .lien {
     position: absolute;
-    top: 0;
-    margin-top: 250px;
+    z-index: 5;
+    margin-top: 33%;
+    margin-left: 19%;
+    text-decoration: none;
+    font-family: 'freeman';
+    font-size: 20px;
+    border-bottom: #eb5e28 1px solid;
+    color: #7d7979;
+    background-color: #F6F6F6;
+    padding: 10px 50px;
+    padding-left: 10px;
+    transition: font-size 0.2s ease;
 }
 
-#Txt1 h1 {
-    font-size: 250px;
+.section2 .lien:hover {
+    box-shadow: none;
+    color: #eb5e28;
+    border-bottom: #eb5e28 1px solid;
+    font-size: 20px;
 }
 
-@media only screen and (max-width: 768px) {
-    #Txt1 {
-        margin-top: 150px;
-    }
-
-    #Txt1 h1 {
-        font-size: 150px;
-    }
+/* section 3 */
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
 }
 
-@media only screen and (max-width: 480px) {
-    #Txt1 {
-        margin-top: 100px;
-    }
+.section3 h1 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -20%;
+    font-size: 600%;
+    font-family: 'freeman';
+    letter-spacing: 3px;
+    border-bottom: #7d7979 solid 1px;
+}
 
-    #Txt1 h1 {
-        font-size: 100px;
-    }
+.section3 p {
+    margin-right: 25%;
+    margin-left: 1%;
+    margin-top: 12%;
+    font-size: 100%;
+    font-family: 'freeman';
+    color: #7d7979;
+    letter-spacing: 3px;
+}
+
+.section3 .img {
+    margin-left: 13.5%;
+    margin-top: 2%;
+}
+
+.section3 img {
+    border-radius: 10px;
+}
+
+/* section 4 */
+.section4 img {
+    border-radius: 5px;
+}
+
+.section4 h1 {
+    margin-right: 32.5%;
+    padding-right: -5px;
+    padding-left: 14%;
+    margin-left: 0px;
+}
+
+.section4 h2 {
+    position: absolute;
+    color: #F6F6F6;
+    font-size: 500%;
+    font-family: 'Freeman';
+}
+
+.section4 .bsk {
+    margin-right: 49%;
+}
+
+.section4 .run {
+    margin-left: 49%;
+}
+
+/* section 5 */
+.section5 {
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section5 h1 {
+    position: absolute;
+    z-index: 6;
+    border: none;
+    font-size: 150px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: -20%;
+}
+
+.section5 h2 {
+    position: absolute;
+    z-index: 5;
+    color: #eb5e28;
+    font-size: 150%;
+    font-family: 'Freeman';
+    margin-left: 17%;
+    margin-top: -3.5%;
+}
+.section5 img {
+    margin-left: 20%;
+    margin-top: 21px;
+}
+
+.section5 p {
+    margin-left: 21%;
+    margin-right: 17%;
+    font-family: 'Freeman';
+    color: #7d7979;
+}
+
+/*footer */ 
+footer {
+    margin-top: 7%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    border-top: solid #eb5e28 1px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2 {
+    font-size: 15px;
+    font-family: 'freeman';
+    letter-spacing: 3px;
+    margin-left: 2%;
+    color: #eb5e28;
+}
+footer .cpr {
+    position: absolute;
+    margin-top: 8%;
+    color: #7d7979;
 }
