@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.section5 {
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section5 h1 {
+    font-family: 'Freeman';
+    color: #7d7979;
+    position: absolute;
+    z-index: 6;
+    border: none;
+    font-size: 150px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: -20%;
+}
+
+.section5 h2 {
+    position: absolute;
+    z-index: 5;
+    color: #eb5e28;
+    font-size: 150%;
+    font-family: 'Freeman';
+    margin-left: 17%;
+    margin-top: -3.5%;
+}
+.section5 img {
+    margin-left: 20%;
+    margin-top: 21px;
+}
+
+.section5 p {
+    margin-left: 21%;
+    margin-right: 17%;
+    font-family: 'Freeman';
+    color: #7d7979;
+}

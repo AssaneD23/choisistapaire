@@ -28,6 +28,13 @@ nav ul li a {
 nav ul li a:hover {
     border-bottom: #eb5e28 solid 3px;
 }
+/*lien internes */ 
+.link {
+    position: absolute;
+    z-index: 3;
+    margin-top: 16%;
+}
+
 
 /*section1 */ 
 .section1 {
@@ -100,10 +107,33 @@ nav ul li a:hover {
     padding: 2px 8px;
     padding-left: 0px;
     border: none;
+    text-decoration: none;
     border-bottom: 1px solid #eb5e28;
     cursor: pointer;
 }
 
 .section1 .btn:hover {
     color: #eb5e28;
+}
+
+/*footer */ 
+footer {
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    border-top: solid #eb5e28 1px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .cpr {
+    font-size: 15px;
+    font-family: 'freeman';
+    position: absolute;
+    margin-top: 8%;
+    color: #7d7979;
 }
