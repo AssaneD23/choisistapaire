@@ -2,13 +2,14 @@ body {
     margin: 0;
     padding: 0;
 }
-.section5 {
+/*gtitle*/
+.section1 {
     margin-top: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.section5 h1 {
+.section1 h1 {
     font-family: 'Freeman';
     color: #7d7979;
     position: absolute;
@@ -16,27 +17,62 @@ body {
     border: none;
     font-size: 150px;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 9%;
     margin-top: -20%;
 }
 
-.section5 h2 {
+/* paragraphe 1*/
+.section1 .p1{
+    margin-left: 10%;
+    margin-right: 50%;
+    font-family: 'Freeman';
+    color: #7d7979;
+}
+.section1 .h01 {
     position: absolute;
     z-index: 5;
     color: #eb5e28;
-    font-size: 150%;
+    font-size: 200%;
     font-family: 'Freeman';
-    margin-left: 17%;
-    margin-top: -3.5%;
+    margin-left: 6%;
+    margin-top: -4%;
 }
-.section5 img {
-    margin-left: 20%;
-    margin-top: 21px;
+.section1 .img1 {
+    margin-left: -1%;
+    margin-top: 20%;
 }
-
-.section5 p {
-    margin-left: 21%;
-    margin-right: 17%;
+/* paragraphe 2*/
+.section1 .p2 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 2.5%;
+    margin-left: 55%;
+    margin-right: 10%;
     font-family: 'Freeman';
     color: #7d7979;
+}
+.section1 .img2 {
+    margin-left: -1%;
+    margin-top: 9%;
+}
+
+.section1 .h02 {
+    position: absolute;
+    z-index: 5;
+    color: #eb5e28;
+    font-size: 200%;
+    font-family: 'Freeman';
+    margin-left: 11%;
+    margin-top: -9%;
+}
+.section1 .p02 {
+    margin-top: 4%;
+}
+
+/*span */
+span {
+    color: #eb5e28;
+}
+.num {
+    letter-spacing: 2px;
 }
